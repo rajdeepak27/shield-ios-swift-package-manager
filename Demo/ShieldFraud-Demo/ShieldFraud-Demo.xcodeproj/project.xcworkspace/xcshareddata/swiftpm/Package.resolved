@@ -3,10 +3,10 @@
     {
       "identity" : "shield-ios-swift-package-manager",
       "kind" : "remoteSourceControl",
-      "location" : "https://github.com/rajdeepak27/shield-ios-swift-package-manager",
+      "location" : "https://github.com/shield-ai-technology/shield-ios-swift-package-manager",
       "state" : {
-        "branch" : "main",
-        "revision" : "7d9d6d4efb329cd7ee9bf8d3592ca6d0b21e6954"
+        "revision" : "3a5087ce9b9d96d1c9d6c6408b78b9638118d302",
+        "version" : "1.5.27"
       }
     }
   ],

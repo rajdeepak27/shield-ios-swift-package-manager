@@ -24,18 +24,18 @@ SHIELD SDK is compatible with apps supporting iOS 12 and above using Swift Packa
 
 **SPM:**
 ```
-.package(url: "https://github.com/rajdeepak27/shield-ios-swift-package-manager.git", from: "1.5.27"),
+.package(url: "https://github.com/shield-ai-technology/shield-ios-swift-package-manager.git", from: "1.5.27"),
 ```
 
 **XCODE**
 ```
-File -> Add Package -> https://github.com/rajdeepak27/shield-ios-swift-package-manager.git (Point to master branch)
+File -> Add Package -> https://github.com/shield-ai-technology/shield-ios-swift-package-manager.git (Point to master branch)
 ```
 **Choose Binary Target**
 
 Once after adding the package, choose a target either `SheildFraud` or `ShieldCredit`
 
-![Example Screenshot](https://github.com/rajdeepak27/shield-ios-swift-package-manager/blob/main/Screenshots/1.png)
+![Example Screenshot](https://github.com/shield-ai-technology/shield-ios-swift-package-manager/blob/main/Screenshots/1.png)
 
 
 **Note**: We make continuous enhancements to our fraud library and detection capabilities which includes new functionalities, bug fixes and security updates. We recommend updating to the latest SDK version to protect against rapidly evolving fraud risks.

@@ -16,7 +16,7 @@
 		4D3592C92A6FD0B10001998F /* ShieldCredit_DemoTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4D3592C82A6FD0B10001998F /* ShieldCredit_DemoTests.swift */; };
 		4D3592D32A6FD0B10001998F /* ShieldCredit_DemoUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4D3592D22A6FD0B10001998F /* ShieldCredit_DemoUITests.swift */; };
 		4D3592D52A6FD0B10001998F /* ShieldCredit_DemoUITestsLaunchTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4D3592D42A6FD0B10001998F /* ShieldCredit_DemoUITestsLaunchTests.swift */; };
-		4D3592E32A6FD0D60001998F /* ShieldCredit in Frameworks */ = {isa = PBXBuildFile; productRef = 4D3592E22A6FD0D60001998F /* ShieldCredit */; };
+		4D690A6F2A700110005E8D57 /* ShieldCredit in Frameworks */ = {isa = PBXBuildFile; productRef = 4D690A6E2A700110005E8D57 /* ShieldCredit */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -57,7 +57,7 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				4D3592E32A6FD0D60001998F /* ShieldCredit in Frameworks */,
+				4D690A6F2A700110005E8D57 /* ShieldCredit in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -146,7 +146,7 @@
 			);
 			name = "ShieldCredit-Demo";
 			packageProductDependencies = (
-				4D3592E22A6FD0D60001998F /* ShieldCredit */,
+				4D690A6E2A700110005E8D57 /* ShieldCredit */,
 			);
 			productName = "ShieldCredit-Demo";
 			productReference = 4D3592AE2A6FD0AF0001998F /* ShieldCredit-Demo.app */;
@@ -221,7 +221,7 @@
 			);
 			mainGroup = 4D3592A52A6FD0AF0001998F;
 			packageReferences = (
-				4D3592E12A6FD0D60001998F /* XCRemoteSwiftPackageReference "shield-ios-swift-package-manager" */,
+				4D690A6D2A700110005E8D57 /* XCRemoteSwiftPackageReference "shield-ios-swift-package-manager" */,
 			);
 			productRefGroup = 4D3592AF2A6FD0AF0001998F /* Products */;
 			projectDirPath = "";
@@ -614,20 +614,20 @@
 /* End XCConfigurationList section */
 
 /* Begin XCRemoteSwiftPackageReference section */
-		4D3592E12A6FD0D60001998F /* XCRemoteSwiftPackageReference "shield-ios-swift-package-manager" */ = {
+		4D690A6D2A700110005E8D57 /* XCRemoteSwiftPackageReference "shield-ios-swift-package-manager" */ = {
 			isa = XCRemoteSwiftPackageReference;
-			repositoryURL = "https://github.com/rajdeepak27/shield-ios-swift-package-manager";
+			repositoryURL = "https://github.com/shield-ai-technology/shield-ios-swift-package-manager";
 			requirement = {
-				branch = main;
-				kind = branch;
+				kind = upToNextMajorVersion;
+				minimumVersion = 1.0.0;
 			};
 		};
 /* End XCRemoteSwiftPackageReference section */
 
 /* Begin XCSwiftPackageProductDependency section */
-		4D3592E22A6FD0D60001998F /* ShieldCredit */ = {
+		4D690A6E2A700110005E8D57 /* ShieldCredit */ = {
 			isa = XCSwiftPackageProductDependency;
-			package = 4D3592E12A6FD0D60001998F /* XCRemoteSwiftPackageReference "shield-ios-swift-package-manager" */;
+			package = 4D690A6D2A700110005E8D57 /* XCRemoteSwiftPackageReference "shield-ios-swift-package-manager" */;
 			productName = ShieldCredit;
 		};
 /* End XCSwiftPackageProductDependency section */

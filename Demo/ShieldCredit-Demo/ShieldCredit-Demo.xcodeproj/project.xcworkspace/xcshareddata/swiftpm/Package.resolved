@@ -1,0 +1,14 @@
+{
+  "pins" : [
+    {
+      "identity" : "shield-ios-swift-package-manager",
+      "kind" : "remoteSourceControl",
+      "location" : "https://github.com/rajdeepak27/shield-ios-swift-package-manager",
+      "state" : {
+        "branch" : "main",
+        "revision" : "7d9d6d4efb329cd7ee9bf8d3592ca6d0b21e6954"
+      }
+    }
+  ],
+  "version" : 2
+}
